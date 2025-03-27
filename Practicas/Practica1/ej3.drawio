@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.1.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.1.3">
   <diagram name="Page-1" id="rN2KOYrv98jf9-0r46Vi">
-    <mxGraphModel dx="2049" dy="1139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="825" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,7 +73,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="F5lC8ROlCVbnqiS2axrL-29" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;tela&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-60;" parent="1" vertex="1">
-          <mxGeometry x="312" y="126.00127018922194" width="40" height="30" as="geometry" />
+          <mxGeometry x="312" y="127.00127018922194" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="F5lC8ROlCVbnqiS2axrL-30" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="346" y="162.00127018922194" width="8" height="28" as="geometry" />
@@ -471,7 +471,7 @@
           <mxGeometry x="304" y="401" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mko7VYSiz4P31xElmZGg-1" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;fecha&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-60;" parent="1" vertex="1">
-          <mxGeometry x="470" y="389.00127018922194" width="50" height="30" as="geometry" />
+          <mxGeometry x="471" y="389.00127018922194" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mko7VYSiz4P31xElmZGg-2" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="543" y="419.00127018922194" width="8" height="28" as="geometry" />
@@ -486,7 +486,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mko7VYSiz4P31xElmZGg-5" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;precio&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-60;" parent="1" vertex="1">
-          <mxGeometry x="526" y="387.00127018922194" width="50" height="30" as="geometry" />
+          <mxGeometry x="525" y="386.00127018922194" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mko7VYSiz4P31xElmZGg-6" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="489" y="419.00127018922194" width="8" height="28" as="geometry" />
@@ -499,15 +499,6 @@
             <mxPoint x="4" y="28" as="targetPoint" />
             <mxPoint x="4" y="8" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="-ybcDIBc6Cna4NfXn8rJ-2" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="610" y="310" as="sourcePoint" />
-            <mxPoint x="630" y="410" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-ybcDIBc6Cna4NfXn8rJ-3" value="COMO SE RELACIONA CON MUCHOS DISFRACES SI SOLO SE RELACIONA CON EL EJEMPLAR??????" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="450" y="270" width="610" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

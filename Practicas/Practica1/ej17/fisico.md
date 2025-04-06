@@ -4,10 +4,6 @@
 
 **Telefono**(<u>telefono, DNI(fk)</u>)
 
-**Animador**(<u>DNI(fk)</u>)
-
-**Malabarista**(<u>DNI(fk)</u>)
-
 **Actuacion**(<u>DNI(fk), (nombre, fecha)(fk)</u>)
 
 **Evento**(<u>nombre, fecha, nombreTipo(fk), DNI(fk)</u>, descripcion)

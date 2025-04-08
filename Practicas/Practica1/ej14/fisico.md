@@ -2,7 +2,7 @@
 
 **Clinica**(<u>razonSocial</u>, calle, nro, depto, piso)
 
-**Atencion**(<u>nroAtencion, razonSocial(fk)</u>, fechaHora, requiereDomicilio, notas)
+**Atencion**(<u>nroAtencion</u>, razonSocial(fk) , fechaHora, requiereDomicilio, notas)
 
 **Producto**(<u>codigo</u>, nombre, presentacion, stock, precio)
 

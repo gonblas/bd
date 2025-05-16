@@ -76,7 +76,16 @@ FROM Pelicula p
 JOIN Funcion f ON f.codP = p.codP
 JOIN Sala s ON s.codS = f.codS
 JOIN Cine c ON c.codC = s.codC
-WHERE (c.nombre = 'Cinemark Hoyts' AND f.fecha <> CURRENT_DATE);
+WHERE (c.nombre = 'Cinemark Hoyts')
+
+EXCEPT
+
+SELECT DISTINCT p.nombre, p.descripcion, p.genero
+FROM Pelicula p
+JOIN Funcion f ON f.codP = p.codP
+JOIN Sala s ON s.codS = f.codS
+JOIN Cine c ON c.codC = s.codC
+WHERE (c.nombre = 'Cinemark Hoyts' AND f.fecha = CURRENT_DATE);
 ```
 
 

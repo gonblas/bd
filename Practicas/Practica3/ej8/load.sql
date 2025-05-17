@@ -61,7 +61,8 @@ INSERT INTO Cartero (DNI, nombreYApe, direccion, telefono) VALUES
 ('12345678', 'Mateo Romero', 'Calle Falsa 123', '111-2222'),
 ('87654321', 'Manuel Savenia', 'Av Siempre Viva 742', '222-3333'),
 ('11223344', 'Agustin Murray', 'Calle Real 50', '333-4444'),
-('55667788', 'Lucas Fernandez', 'Calle 9 de Julio 123', '444-5555'); -- CARTERO SIN ENVIOS
+('55667788', 'Lucas Fernandez', 'Calle 9 de Julio 123', '444-5555'),
+('99999999', 'Ivan Trolanis No Entrega', 'City Bell 342', '221-5555'); -- CARTERO SIN ENVIOS
 
 -- SUCURSALES
 INSERT INTO Sucursal (IDSUC, nombreS, direccionS, telefonoS) VALUES

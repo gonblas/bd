@@ -1,4 +1,4 @@
-# Ejercicio 4
+# Ejercicio 7
 
 1. 
 ```sql

@@ -37,6 +37,10 @@ CREATE TABLE IF NOT EXISTS Aplicacion (
     FOREIGN KEY (codArea) REFERENCES Area(codArea)
 );
 
+-- =========================
+-- ELIMINACIÓN DE DATOS
+-- =========================
+
 TRUNCATE TABLE aplicacion RESTART IDENTITY CASCADE;
 TRUNCATE TABLE proyecto RESTART IDENTITY CASCADE;
 TRUNCATE TABLE area RESTART IDENTITY CASCADE;

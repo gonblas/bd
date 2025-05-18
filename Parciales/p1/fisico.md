@@ -9,7 +9,9 @@
 
 **Paciente**(<u>dni</u>, direccion)
 
-**Especialidad**(<u>nombre, matricula(fk)</u>)
+**Especialidad**(<u>nombre</u>)
+
+**pro_esp**(<u>nombre(fk), matricula(fk)</u>)
 
 **Internacion**(<u>fechaIngreso, dni_paciente(fk)</u>, causa, nro_pieza, matricula(fk))
 

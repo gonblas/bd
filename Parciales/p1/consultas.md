@@ -36,15 +36,15 @@ WHERE (p.tipoPub = 'Video') AND (p.fechaPub BETWEEN '2020-01-01' AND '2020-12-31
 SELECT DISTINCT u.nombreUsuario, u.correo, u.apellido, u.nombre
 FROM Usuario u
 JOIN Comentario c USING (nombreUsuario)
-WHERE EXTRACT(YEAR FROM c.fechaCom) = 2022
+WHERE c.fechaCom BETWEEN '2022-01-01' AND '2022-12-31'
 ORDER BY u.apellido, u.nombre
 
 INTERSECT
 
 SELECT DISTINCT u.nombreUsuario, u.correo, u.apellido, u.nombre
 FROM Usuario u
-JOIN Comentario c USING (nombreUsuario)
-WHERE EXTRACT(YEAR FROM c.fechaCom) = EXTRACT(YEAR FROM CURRENT_DATE)
+JOIN Publicacion p USING (nombreUsuario)
+WHERE p.fechaPub BETWEEN '2022-01-01' AND '2022-12-31'
 ORDER BY u.apellido, u.nombre;
 ```
 

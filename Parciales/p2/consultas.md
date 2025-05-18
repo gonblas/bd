@@ -57,7 +57,7 @@ HAVING COUNT(*) > 10;
 
 6.
 ```sql
-SELECT SUM(d.cantidad * d.precio_unitario) AS importe_total, SUM(d.cantidad * d.precio_unitario - d.descuento) AS importe_a_cobrar, COUNT(d.codP)
+SELECT SUM(d.cantidad * d.precio_unitario) AS importe_total, SUM(d.cantidad * d.precio_unitario - d.descuento) AS importe_a_cobrar, COUNT(*)
 FROM Compra c
 JOIN Detalle d USING (ticket)
 WHERE c.ticket = 123456789;

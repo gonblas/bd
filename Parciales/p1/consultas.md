@@ -73,12 +73,13 @@ FROM Usuario u
 JOIN Publicacion p ON p.nombreUsuario = u.nombreUsuario
 GROUP BY u.nombreUsuario
 HAVING COUNT(p.idPublicacion) = (
-  SELECT MAX(p2.cantPublicaciones) 
+  SELECT COUNT(p2.idPublicacion) as cantPublicaciones2
   FROM Usuario u2
   JOIN Publicacion p2 ON p2.nombreUsuario = u2.nombreUsuario
   GROUP BY u2.nombreUsuario
+  ORDER BY cantPublicaciones2 DESC
+  LIMIT 1;
 )
-ORDER BY cantPublicaciones DESC;
 ```
 
 

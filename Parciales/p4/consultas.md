@@ -28,7 +28,7 @@ FROM Obra o
 JOIN Espectaculo e USING (nombre)
 WHERE e.fecha BETWEEN '2021-01-01' AND '2021-12-31';
 
-EXTRACT 
+EXCEPT
 
 SELECT o.nombre, o.cantidad_integrantes, o.descripcion, o.genero
 FROM Obra o
